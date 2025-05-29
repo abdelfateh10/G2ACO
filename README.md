@@ -4,14 +4,7 @@ G2ACO
 torch_geometric==2.4.0
 # G2ACO
 
-**Unsupervised Graph Attention Autoencoder Clustering-Oriented (G2ACO)** is a lightweight and effective model for **community detection in attributed networks**. By combining graph attention mechanisms with an autoencoder framework and a clustering-oriented loss, G2ACO captures both topological and attribute information, guiding representation learning directly toward meaningful community assignments.
-
-## Features
-
-- 📊 **Graph Attention Encoder**: Multi-head attention layers to learn expressive node embeddings.
-- 🔄 **Inner-Product Decoder**: Reconstructs graph structure and node attributes.
-- 🧠 **Clustering-Oriented Loss**: Integrates k-means as a target distribution loss for community detection.
-- ⚡ **Faster Runtime**:  Faster runtime.
+**Unsupervised Graph Attention Autoencoder Clustering-Oriented (G2ACO)** 
 
 ## Requirements
 
